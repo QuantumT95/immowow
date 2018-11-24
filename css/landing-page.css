@@ -1,0 +1,246 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.0 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#buysellbuttons {
+  margin: 5px;
+}
+
+.front-banner {
+  background-image: url("../img/front-house.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+  /* width: 100%; */
+  /* height: 100%; */
+  /* padding-top: 66.64%; */
+  /* position: relative; */
+}
+
+.front-banner-box {
+  box-shadow: inset 1px 2000px rgba(208, 208, 208, 0.54);
+  text-align: center;
+}
+
+#banner {
+  height: 740px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  padding: 250px 0;
+}
+
+.front-banner-button {
+  padding: 50px 0;
+}
+
+.front-banner-title {
+  font-size: 5vw;
+}
+
+.front-info {
+  background-image: url("../img/front-kitchen.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+#banner-front-info {
+  height: 590px;
+}
+
+.banner-front-title {
+  font-size: 6vw;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 0;
+  overflow-y: hidden;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.banner-front-box-info {
+  background-color: white;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 380px;
+}
+
+.banner-front-cards {
+  background-color: white;
+  text-align: center;
+}
+
+.sofa-background {
+  background-image: url("../img/daysofa.jpg");
+}
+
+.contact-banner-title {
+  height: 100%;
+}
+
+#contact-title {
+  padding: 10px;
+}
+input[type="text"] {
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: 0;
+  background-color: #f9fbe7;
+}
+
+textarea[aria-label="Message"] {
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: 0;
+  background-color: #f9fbe7;
+}
+
+#message-placeholder {
+  color: #8e8e8e;
+}
+
+::placeholder {
+  color: #8e8e8e;
+  opacity: 1;
+}
+
+#envoyer-button {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: right;
+}
+
+#envoyerbutton {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#row-letter {
+  background-color: #f9fbe7;
+  flex: 1;
+}
+
+#contact_content {
+  height: auto;
+  top: 80px;
+  bottom: 80px;
+  left: 0px;
+  width: auto;
+  min-height: 550px;
+  position: relative;
+  margin: auto;
+}
+
+#buysellrow {
+  background-color: #f9fbe7;
+}
+
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/front_banner.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
