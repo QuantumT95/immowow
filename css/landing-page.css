@@ -103,6 +103,7 @@ html {
 #contact-title {
   padding: 10px;
 }
+
 input[type="text"] {
   border: 0;
   border-bottom: 1px solid black;
@@ -159,6 +160,27 @@ textarea[aria-label="Message"] {
   background-color: #f9fbe7;
 }
 
+.search-banner {
+  background-image: url("../img/search-banner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+#searchbanner {
+  height: 500px;
+}
+
+#searchtitle {
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  -webkit-font-smoothing: antialiased;
+}
 
 @media (min-width: 768px) {
   header.masthead {
