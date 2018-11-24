@@ -21,7 +21,11 @@
 
   <!-- Custom styles for this template -->
   <!-- <link href="css/landing-page.min.css" rel="stylesheet"> -->
-  <link href="../css/landing-page.css" rel="stylesheet">
+  <link href="css/landing-page.css" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
@@ -49,7 +53,13 @@
           <div class="col"></div>
           <div class="col">
             <p id="searchtitle">Our Listing</p>
-            <input class="form-control form-control-lg" type="text" placeholder="Search Site">
+            <div class="input-group">
+              <input id="ccSearchInput" type="text" placeholder="Search Site">
+              <div class="input-group-addon" id="clearBtn"><i class="glyphicon glyphicon-remove-circle"></i>
+              </div>
+              <div class="input-group-addon" id="searchBtn"><i class="glyphicon glyphicon-search"></i>
+              </div>
+            </div>
           </div>
           <div class="col"></div>
         </div>
@@ -87,10 +97,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
