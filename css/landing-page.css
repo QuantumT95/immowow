@@ -196,6 +196,85 @@ textarea[aria-label="Message"] {
   background: red;
 }
 
+@media (min-width: 744px) {
+  .outer-holder {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+}
+
+.outer-holder {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+@media (min-width: 1128px) {
+  .inner-holder {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+    padding: 0px !important;
+  }
+}
+
+@media (min-width: 744px) {
+  .inner-holder {
+    padding: 0px 16px !important;
+  }
+}
+
+.inner-holder {
+  margin-left: -24px !important;
+  margin-right: -24px !important;
+  padding: 0px 18px !important;
+}
+
+@media (min-width: 1509px) and (min-width: 1240px) {
+  .outter-house-cards {
+    width: 25% !important;
+  }
+}
+
+.outter-house-cards {
+  display: inline-block !important;
+  vertical-align: top !important;
+  white-space: normal !important;
+}
+
+@media (min-width: 744px) {
+  .inner-house-cards {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+.inner-house-cards {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 8px !important;
+  padding-bottom: 12px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.house-cards {
+  position: relative !important;
+  color: rgb(72, 72, 72) !important;
+  height: 100% !important;
+  background: rgb(255, 255, 255) !important;
+}
+
+.house-card-images {
+  width: 100% !important;
+  position: relative !important;
+  z-index: 0 !important;
+}
+
+.house-card-text {
+  padding-top: 8px !important;
+}
+
+
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
