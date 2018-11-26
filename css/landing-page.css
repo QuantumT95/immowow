@@ -273,6 +273,96 @@ textarea[aria-label="Message"] {
   padding-top: 8px !important;
 }
 
+.housecard-text-box {
+  display: block !important;
+  color: rgb(72, 72, 72) !important;
+  text-decoration: none !important;
+}
+
+.house-card-info {
+  line-height: 22px !important;
+  max-height: 44px !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  font-size: 19px !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.house-card-info-text {
+  word-wrap: break-word !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  letter-spacing: normal !important;
+  color: rgb(72, 72, 72) !important;
+  font-weight: 800 !important;
+  margin: 0px !important;
+}
+
+.outer-inner-house-card-info-text-price-box {
+  float: left !important;
+}
+
+.inner-inner-house-card-info-text-price-box {
+  line-height: normal !important;
+}
+
+.outer-house-card-images {
+  position: relative !important;
+}
+
+.outer-inner-house-card-images {
+  contain: strict !important;
+  position: relative !important;
+  width: 100% !important;
+  z-index: 0 !important;
+  border-bottom-left-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.house-card-image-span {
+  position: absolute !important;
+  display: block !important;
+  border: 0px !important;
+  /* border margin padding + overflow needs to be expanded */
+  margin: -1px !important;
+  padding: 0px !important;
+  height: 1px !important;
+  width: 1px !important;
+  clip: rect(0, 0, 0, 0) !important;
+  overflow: hidden !important;
+}
+
+.house-card-image-layer1 {
+  height: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.house-card-image-layer2 {
+  width: 100% !important;
+  height: 100% !important;
+  white-space: nowrap !important;
+}
+
+.house-card-image-layer3 {
+  display: inline-block !important;
+  height: 100% !important;
+  width: 100% !important;
+  vertical-align: middle !important;
+}
+
+.house-card-image-layer4 {
+  position: relative !important;
+}
 
 
 @media (min-width: 768px) {
